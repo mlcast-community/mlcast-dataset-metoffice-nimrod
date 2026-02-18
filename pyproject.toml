@@ -1,0 +1,27 @@
+[project]
+name = "mlcast-dataset-metoffice-nimrod"
+version = "0.1.0"
+description = "Download and convert UK Met Office NIMROD radar data to mlcast-compliant GeoTIFF"
+authors = [
+    {name = "Gabriele Franch", email = "franch@fbk.eu"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0 OR BSD-3-Clause"
+license-files = [
+    "LICENSE-APACHE",
+    "LICENSE-BSD",
+]
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
+
+[tool.isort]
+profile = "black"
+skip = ["nimrod.py"]
+
+[tool.black]
+extend-exclude = "nimrod\\.py"
