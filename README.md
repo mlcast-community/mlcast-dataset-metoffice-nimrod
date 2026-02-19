@@ -2,10 +2,8 @@
 
 <!-- SPDX-License-Identifier: Apache-2.0 OR BSD-3-Clause -->
 
-[![linting](https://github.com/mlcast-community/mlcast-dataset-metoffice-nimrod/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/mlcast-community/mlcast-dataset-metoffice-nimrod/actions/workflows/pre-commit.yml)
-
 Scripts to download UK Met Office NIMROD composite rain radar archives from
-[CEDA](https://catalogue.ceda.ac.uk/uuid/27dd6090b60b4f47938bfc5a5d823052)
+[CEDA](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)
 and convert them to mlcast-compliant GeoTIFFs, ready for ingestion by
 [mlcast-dataset-tiff2zarr](https://github.com/mlcast-community/mlcast-dataset-tiff2zarr).
 
