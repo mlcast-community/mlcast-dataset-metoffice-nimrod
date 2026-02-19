@@ -16,7 +16,7 @@ as mm/h×32 (scale factor 0.03125). Archived as daily `.dat.gz.tar` bundles at
 
 > **Access required.** You need a CEDA account and must have been granted
 > access to the `ukmo_wx` group. Authenticate via a Bearer token (see
-> [CEDA documentation](https://help.ceda.ac.uk/article/5096)).
+> [CEDA documentation](https://help.ceda.ac.uk/)).
 
 ## Pipeline
 
